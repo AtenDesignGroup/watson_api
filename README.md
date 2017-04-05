@@ -19,7 +19,7 @@ Be sure to create API credentials for the endpoint you are implementing. For exa
 1. Create a Key
    1. Visit /admin/config/system/keys/add
    2. ![Key Settings](https://www.evernote.com/l/AMk1S4TubeBN7LfaqfpiOJc78_ZZo28LsFQB/image.png)
-** If you go the preferred file route for the password, please make sure there is no white space in the file!
+   3. If you go the preferred file route for the password, please make sure there is no white space in the file!
 2. Configure API Settings
    1. Visit /admin/config/watsonapi
    2. Add your API Username, the API base url + endpoint you are implementing and reference the password created in step #1
