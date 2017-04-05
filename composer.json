@@ -1,0 +1,7 @@
+{
+    "name": "drupal/watson_api",
+    "type": "drupal-module",
+    "require": {
+        "findbrok/php-watson-api-bridge": "^1.0"
+    }
+}

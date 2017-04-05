@@ -1,0 +1,6 @@
+watson_api.settings:
+  title: 'Watson API Settings'
+  description: 'Manage Watson API settings'
+  parent: system.admin_config_services
+  route_name: watson_api.settings
+  weight: 100

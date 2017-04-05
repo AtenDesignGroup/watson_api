@@ -1,0 +1,8 @@
+name: Watson API
+type: module
+description: Wrapper for the PHP Watson API Bridge Class to connect to IBM's Watson API.
+core: 8.x
+package: Web services
+
+dependencies:
+- key:key

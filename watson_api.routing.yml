@@ -1,0 +1,7 @@
+watson_api.settings:
+  path: '/admin/config/watsonapi'
+  defaults:
+    _form: '\Drupal\watson_api\Form\ConfigForm'
+    _title: 'Watson API Settings'
+  requirements:
+    _permission: 'administer watson api'

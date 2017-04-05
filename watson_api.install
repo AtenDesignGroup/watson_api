@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_requirements().
+ */
+function watson_api_requirements($phase) {
+  $requirements = [];
+  if ($phase == 'install') {
+    if (!class_exists('\FindBrok\WatsonBridge\Bridge')) {
+      $requirements['php_watson_api_bridge_library'] = [
+        'description' => t('Watson API requires the PHP IBM Watson API Bridge library. See https://github.com/findbrok/php-watson-api-bridge'),
+        'severity' => REQUIREMENT_ERROR,
+      ];
+    }
+  }
+
+  return $requirements;
+}

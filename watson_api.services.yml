@@ -1,0 +1,4 @@
+services:
+  watson_api.client:
+    class: '\Drupal\watson_api\Client\WatsonClient'
+    arguments: ['@key.repository', '@config.factory']
